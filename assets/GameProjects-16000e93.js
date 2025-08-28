@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-9a195e62.js";import{f as i,_ as s,r as n,c as h,d as l,a as t,o as d}from"./index-d7b5061f.js";const c=[new e("Underworld-Overseer","Underworld Overseer","img/projects/Overseer.jpg",`
+import{P as e,a as o}from"./ProjectData-bfead8b8.js";import{f as i,_ as s,r as n,c as h,d as l,a as t,o as d}from"./index-87bbebc2.js";const c=[new e("Underworld-Overseer","Underworld Overseer","img/projects/Overseer.jpg",`
     <div class="paragraph">
     <strong>Underworld Overseer</strong> is a project I've worked on during my internship and one that I am very proud of. 
     My internship in <strong> Myron Games </strong> began in February 2024 and ended in June 2024 to which I worked in a team of roughly <strong>10 people</strong>.
@@ -258,11 +258,4 @@ import{P as e,a as o}from"./ProjectData-9a195e62.js";import{f as i,_ as s,r as n
             <br /><br />
             The repository can be found <a href="https://github.com/JonasBruylant/2048" target="_blank">here</a> in case you're interested.
         </div>
-            </div>`,"#5532f0"),new e("Codename: Project P","Project P WIP","",`
-            <div class="paragraph">    
-                This is a project that is still a work in progress and is not yet available for display.
-                The game is being made in <strong>Unity 6</strong> using <strong>Github</strong> as source control and is being managed by me alone.<br/>
-                This means I'm in charge of everything, including the art as well. <br/>
-
-                The repository can be found <a href="https://github.com/JonasBruylant/Project_P" target="_blank">here</a> in case you're interested.
-            </div>`,"#ba34b1")],g=i({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:c}}}),p=t("h1",null,"Projects",-1),m=t("div",{style:{"margin-bottom":"30px"}}," The following projects are ones I'm proud of or heavily contributed to. ",-1);function u(a,b,w,f,v,y){const r=n("ProjectsList");return d(),h("div",null,[p,m,l(r,{projects:a.projects},null,8,["projects"])])}const I=s(g,[["render",u]]);export{I as default};
+            </div>`,"#5532f0")],g=i({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:c}}}),p=t("h1",null,"Projects",-1),m=t("div",{style:{"margin-bottom":"30px"}}," The following projects are ones I'm proud of or heavily contributed to. ",-1);function u(a,w,b,f,v,y){const r=n("ProjectsList");return d(),h("div",null,[p,m,l(r,{projects:a.projects},null,8,["projects"])])}const I=s(g,[["render",u]]);export{I as default};
